@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('layouts/head'); -%>
+
+    <body>
+        <!-- Navigation-->
+        <%- include('layouts/navigation'); -%>
+
+        <!-- Page Header-->
+        <header class="masthead">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="page-heading">
+                    <h1>Account</h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- Page Content -->
+        <section class="pt-5 pb-5">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <%- include('layouts/signupform'); -%>
+                    <%- include('layouts/loginform'); -%>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <%- include('layouts/footer'); -%>
+    </body>
+
+</html>
